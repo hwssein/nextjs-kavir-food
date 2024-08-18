@@ -2,15 +2,15 @@ import { createTheme } from "@mui/material";
 
 const theme = createTheme({
   typography: {
-    fontFamily: ["Lato"].join(),
+    fontFamily: ["Noto Sans"].join(),
   },
 
   palette: {
     primary: {
-      main: "#00244d",
+      main: "#ff5470",
     },
     secondary: {
-      main: "#ff5470",
+      main: "#00244d",
     },
   },
 });
