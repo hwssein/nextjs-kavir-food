@@ -20,7 +20,7 @@ function Layout({ children }) {
             component="strong"
             variant="a"
             color="primary"
-            style={{
+            sx={{
               fontWeight: "bold",
               fontSize: "1.3rem",
               letterSpacing: "1px",
@@ -36,7 +36,7 @@ function Layout({ children }) {
               component="span"
               variant="a"
               color="secondary"
-              style={{ fontSize: "1.1rem", marginRight: "16px" }}
+              sx={{ fontSize: "1.1rem", marginRight: "16px" }}
             >
               Menu
             </Typography>
@@ -47,7 +47,7 @@ function Layout({ children }) {
               component="span"
               variant="a"
               color="secondary"
-              style={{ fontSize: "1.1rem" }}
+              sx={{ fontSize: "1.1rem" }}
             >
               Categories
             </Typography>
@@ -55,7 +55,7 @@ function Layout({ children }) {
         </Box>
       </header>
 
-      <main>{children}</main>
+      <main style={{ padding: "8px" }}>{children}</main>
 
       <footer
         style={{
@@ -71,10 +71,11 @@ function Layout({ children }) {
             component="p"
             variant="p"
             color="secondary"
-            style={{
+            sx={{
               borderBottom: "2px solid #00244d",
               borderRadius: "4px",
               padding: "4px",
+              marginBottom: "8px",
             }}
           >
             Developed With ❤️ By hwssein
