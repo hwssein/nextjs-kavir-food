@@ -33,7 +33,7 @@ function HomePageBoxes() {
               justifyContent: "center",
               width: "150px",
               height: "150px",
-              boxShadow: "#ff5470 0px 2px 8px -3px, #ff5470 0px 2px 4px -3px",
+              boxShadow: "#ff5470 0px 3px 7px -3px",
               borderRadius: "4px",
               padding: "4px",
             }}
@@ -67,7 +67,7 @@ function HomePageBoxes() {
               justifyContent: "center",
               width: "150px",
               height: "150px",
-              boxShadow: "#ff5470 0px 2px 8px -3px, #ff5470 0px 2px 4px -3px",
+              boxShadow: "#ff5470 0px 3px 7px -3px",
               borderRadius: "4px",
               padding: "4px",
             }}
@@ -101,7 +101,7 @@ function HomePageBoxes() {
               justifyContent: "center",
               width: "150px",
               height: "150px",
-              boxShadow: "#ff5470 0px 2px 8px -3px, #ff5470 0px 2px 4px -3px",
+              boxShadow: "#ff5470 0px 3px 7px -3px",
               borderRadius: "4px",
               padding: "4px",
             }}
@@ -135,7 +135,7 @@ function HomePageBoxes() {
               justifyContent: "center",
               width: "150px",
               height: "150px",
-              boxShadow: "#ff5470 0px 2px 8px -3px, #ff5470 0px 2px 4px -3px",
+              boxShadow: "#ff5470 0px 3px 7px -3px",
               borderRadius: "4px",
               padding: "4px",
             }}

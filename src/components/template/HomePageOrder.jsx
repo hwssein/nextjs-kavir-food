@@ -50,7 +50,7 @@ function HomePageOrder() {
             sx={{
               textAlign: "center",
               padding: "16px",
-              boxShadow: "#ff5470 0px 2px 8px -3px, #ff5470 0px 2px 4px -3px",
+              boxShadow: "#ff5470 0px 3px 7px -3px",
               borderRadius: "4px",
             }}
           >
@@ -66,7 +66,7 @@ function HomePageOrder() {
             sx={{
               textAlign: "center",
               padding: "16px",
-              boxShadow: "#ff5470 0px 2px 8px -3px, #ff5470 0px 2px 4px -3px",
+              boxShadow: "#ff5470 0px 3px 7px -3px",
               borderRadius: "4px",
             }}
           >
@@ -82,7 +82,7 @@ function HomePageOrder() {
             sx={{
               textAlign: "center",
               padding: "16px",
-              boxShadow: "#ff5470 0px 2px 8px -3px, #ff5470 0px 2px 4px -3px",
+              boxShadow: "#ff5470 0px 3px 7px -3px",
               borderRadius: "4px",
             }}
           >
