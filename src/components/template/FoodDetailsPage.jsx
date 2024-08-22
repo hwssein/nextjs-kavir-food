@@ -3,7 +3,6 @@ import Image from "next/image";
 import Dollar from "../icons/Dollar";
 
 function FoodDetailsPage({ data }) {
-  console.log(data);
   return (
     <>
       <Box
