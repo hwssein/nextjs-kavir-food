@@ -12,6 +12,7 @@ import Image from "next/image";
 import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
 import MenuCard from "../module/MenuCard";
+import { queryFilter } from "@/helpers/filtering";
 
 function CategoriesPage({ data }) {
   const router = useRouter();
@@ -36,7 +37,7 @@ function CategoriesPage({ data }) {
     if (query.level || query.time) {
       router.push({
         pathname: "/categories",
-        query,
+        query: queryFilter(query),
       });
     } else {
       alert("Please Set The Level And Time Field");

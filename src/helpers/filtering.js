@@ -37,4 +37,22 @@ const timeFilter = (data, time) => {
 
   return filteredData;
 };
-export { levelFilter, timeFilter };
+
+const queryFilter = (data) => {
+  let filteredData = { ...data };
+
+  if (data.level === undefined) {
+    const { level, ...other } = filteredData;
+
+    filteredData = other;
+  }
+
+  if (data.time === undefined) {
+    const { time, ...other } = filteredData;
+
+    filteredData = other;
+  }
+
+  return filteredData;
+};
+export { levelFilter, timeFilter, queryFilter };
